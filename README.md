@@ -4,7 +4,9 @@
 グラブル側のミュートとは無関係に音が出ます
 
 無効化したりインストール前に交換してしまって音が鳴り続ける場合は
+
 https://mixberryparfait.github.io/grablu-exchange-alert/
+
 にアクセスすると当日分交換したことにできます
 
 ---
