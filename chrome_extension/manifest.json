@@ -1,0 +1,16 @@
+{
+  "name": "星晶交換アラート",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "星晶交換してないとマイぺでアラートを鳴らす",
+  "content_scripts": [
+    {
+      "matches": [ "http://game.granbluefantasy.jp/"],
+      "js": ["exchange.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    "sound.mp3"
+  ]
+}

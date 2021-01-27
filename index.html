@@ -1,0 +1,8 @@
+<script>
+	const today = () => {
+    const date = new Date(new Date().getTime() + 3600 * 4 * 1000);
+    return `${date.getUTCFullYear()}/${date.getUTCMonth()+1}/${date.getUTCDate()}`;
+  }
+
+  localStorage.setItem('last_exchange', today());
+</script>
